@@ -8,4 +8,4 @@ else {
 
 }
 
-console.log("end of the programm")
+console.log("code execute successfully")
