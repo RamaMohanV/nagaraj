@@ -1,0 +1,28 @@
+{
+  "name": "playwrightpractice",
+  "version": "1.0.0",
+  "description": "playwright framewrok",
+  "keywords": [
+    "ts",
+    "pw",
+    "js"
+  ],
+  "license": "ISC",
+  "author": "Nagraju",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js test",
+    "name":"debug"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.3.0",
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.0",
+    "cucumber-html-reporter": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "playwright": "^1.57.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "to-verify-the-filters-in-playwright;verifying-the-filters-infunctionality",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verifying the filters infunctionality",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "open the browser for filters",
+            "match": {
+              "location": "PlaywrightAutomation\\StepFiles\\Filters.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 721277100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "enter url for filters",
+            "match": {
+              "location": "PlaywrightAutomation\\StepFiles\\Filters.ts:21"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5020068900,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (D:\\PlaywrightPractice\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:588:17)\n    at processTimers (node:internal/timers:523:7)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ramu",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "to-verify-the-filters-in-playwright",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "To verify the filters in playwright",
+    "tags": [],
+    "uri": "PlaywrightAutomation\\FeatureFiles\\Filters.feature"
+  }
+]

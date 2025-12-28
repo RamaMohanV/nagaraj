@@ -1,0 +1,32 @@
+{
+    "Test1":{
+    "Name":"nagaraju",
+    "Email":"nagaraju@example.com",
+    "phone":"7337525314",
+    "Address":"Hyderabad"
+    },
+    "Test2":{
+        "Name":"Vanaja",
+        "Email":"vanaja@example.com",
+        "phone":"9876543210",
+        "Address":"Chennai"
+    },
+
+    "Test3":{
+        "Name":"hari",
+        "Email":"hari@example.com",
+        "phone":"7893848526",
+        "Address":"Bangalore"
+    },
+    
+    "Test4":{
+        "Name":"lingarao",
+        "Email":"lingarao@example.com",
+        "phone":"8978744794",
+        "Address":"Jammikunta"
+
+        
+
+    }
+    
+}
